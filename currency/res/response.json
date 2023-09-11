@@ -1,0 +1,182 @@
+{
+  "success": true,
+  "message": "Kur bilgisi listelendi",
+  "data": [
+    {
+      "id": 1,
+      "name": "ABD DOLARI",
+      "forexBuying": 18.8652,
+      "forexSelling": 18.8991,
+      "currencyCode": "USD",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 2,
+      "name": "AVUSTRALYA DOLARI",
+      "forexBuying": 12.7365,
+      "forexSelling": 12.8195,
+      "currencyCode": "AUD",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 3,
+      "name": "DANİMARKA KRONU",
+      "forexBuying": 2.6939,
+      "forexSelling": 2.7071,
+      "currencyCode": "DKK",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 4,
+      "name": "EURO",
+      "forexBuying": 20.0845,
+      "forexSelling": 20.1207,
+      "currencyCode": "EUR",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 5,
+      "name": "İNGİLİZ STERLİNİ",
+      "forexBuying": 22.7194,
+      "forexSelling": 22.8379,
+      "currencyCode": "GBP",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 6,
+      "name": "İSVİÇRE FRANGI",
+      "forexBuying": 20.0674,
+      "forexSelling": 20.1963,
+      "currencyCode": "CHF",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 7,
+      "name": "İSVEÇ KRONU",
+      "forexBuying": 1.8052,
+      "forexSelling": 1.8239,
+      "currencyCode": "SEK",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 8,
+      "name": "KANADA DOLARI",
+      "forexBuying": 13.8511,
+      "forexSelling": 13.9135,
+      "currencyCode": "CAD",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 9,
+      "name": "KUVEYT DİNARI",
+      "forexBuying": 61.1359,
+      "forexSelling": 61.9359,
+      "currencyCode": "KWD",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 10,
+      "name": "NORVEÇ KRONU",
+      "forexBuying": 1.8231,
+      "forexSelling": 1.8353,
+      "currencyCode": "NOK",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 11,
+      "name": "SUUDİ ARABİSTAN RİYALİ",
+      "forexBuying": 5.0269,
+      "forexSelling": 5.0359,
+      "currencyCode": "SAR",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 12,
+      "name": "JAPON YENİ",
+      "forexBuying": 13.8551,
+      "forexSelling": 13.9468,
+      "currencyCode": "JPY",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 13,
+      "name": "BULGAR LEVASI",
+      "forexBuying": 10.2116,
+      "forexSelling": 10.3452,
+      "currencyCode": "BGN",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 14,
+      "name": "RUMEN LEYİ",
+      "forexBuying": 4.0552,
+      "forexSelling": 4.1083,
+      "currencyCode": "RON",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 15,
+      "name": "RUS RUBLESİ",
+      "forexBuying": 0.24941,
+      "forexSelling": 0.25267,
+      "currencyCode": "RUB",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 16,
+      "name": "İRAN RİYALİ",
+      "forexBuying": 0.04467,
+      "forexSelling": 0.04525,
+      "currencyCode": "IRR",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 17,
+      "name": "ÇİN YUANI",
+      "forexBuying": 2.7262,
+      "forexSelling": 2.7619,
+      "currencyCode": "CNY",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 18,
+      "name": "PAKİSTAN RUPİSİ",
+      "forexBuying": 0.07068,
+      "forexSelling": 0.0716,
+      "currencyCode": "PKR",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 19,
+      "name": "KATAR RİYALİ",
+      "forexBuying": 5.1366,
+      "forexSelling": 5.2038,
+      "currencyCode": "QAR",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 20,
+      "name": "GÜNEY KORE WONU",
+      "forexBuying": 0.01434,
+      "forexSelling": 0.01453,
+      "currencyCode": "KRW",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 21,
+      "name": "AZERBAYCAN YENİ MANATI",
+      "forexBuying": 11.0349,
+      "forexSelling": 11.1793,
+      "currencyCode": "AZN",
+      "exchangeRateDate": "2023-03-01"
+    },
+    {
+      "id": 22,
+      "name": "BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ",
+      "forexBuying": 5.1074,
+      "forexSelling": 5.1743,
+      "currencyCode": "AED",
+      "exchangeRateDate": "2023-03-01"
+    }
+  ]
+}

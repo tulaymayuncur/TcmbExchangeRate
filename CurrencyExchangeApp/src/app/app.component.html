@@ -1,0 +1,53 @@
+<p-toast></p-toast>
+<div class="p-grid p-dir-col p-align-center">
+  <div class="custom-background">
+  <h1 class="p-mb-4">Currency Exchange</h1>
+
+  <!-- Tarih Girişi -->
+  <div class="p-inputgroup p-mb-3">
+    <span class="p-inputgroup-addon">
+      <i class="pi pi-calendar"></i>
+    </span>
+    <input type="date" id="dateInput" [(ngModel)]="selectedDate" class="p-inputtext">
+  </div>
+
+  <!-- Buton -->
+
+    <button pButton type="button" label="Kur Bilgisini Getir" icon="pi pi-search" class="p-button-rounded p-button-success p-mb-3" style="margin-top: 1rem" (click)="getExchangeRate()"></button>
+
+    <!-- Sonuç Gösterme Bölümü -->
+  <div *ngIf="exchangeRate" class="p-text-center">
+    <h2 class="p-mt-4">Kur Bilgisi</h2>
+    <p>Seçilen Tarih: {{ selectedDate }}</p>
+    <p>Döviz Kuru: {{ exchangeRate }}</p>
+  </div>
+</div>
+  <div class="card">
+    <p-table [value]="exchanges" [tableStyle]="{ 'min-width': '50rem' }">
+      <ng-template pTemplate="header">
+        <tr>
+
+          <th>Date</th>
+          <th>Id</th>
+          <th>Currency Code</th>
+          <th>Name</th>
+          <th>Forex Buying</th>
+          <th>Buying Selling</th>
+        </tr>
+
+      </ng-template>
+
+      <ng-template pTemplate="body" let-exchange>
+        <tr>
+          <td>{{ exchange.exchangeRateDate }}</td>
+          <td>{{ exchange.id }}</td>
+          <td>{{ exchange.currencyCode }}</td>
+          <td>{{ exchange.name }}</td>
+          <td>{{ exchange.forexBuying }}</td>
+          <td>{{ exchange.forexSelling }}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+</div>
+
